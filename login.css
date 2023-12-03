@@ -1,0 +1,34 @@
+
+span {
+    color: #198754 !important;
+}
+h2{
+    color: white !important;
+}
+.imagehead{
+    background-size: cover !important;
+    min-height: 60vh !important;
+    position: relative !important;
+    color: white !important;
+}
+h1{
+    font-size: 5rem !important;
+    letter-spacing: 5px !important;
+   
+}
+.tvm-text{
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+@media (max-width: 768px){
+    .imagehead{
+        min-height: 30vh !important;
+    }
+
+    h1{
+        font-size: 1rem !important;
+        letter-spacing: 2px !important;
+    }
+}
